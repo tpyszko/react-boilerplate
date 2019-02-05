@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { H1 } from "../components/Text"
 
 export default class App extends Component {
   render() {
     return (
-      <div>Hi from App!</div>
+      <H1>Hi from App!</H1>
     );
   }
 }
